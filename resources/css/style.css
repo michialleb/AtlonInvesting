@@ -1,0 +1,224 @@
+/* ----------------------------------------- */
+/* BASIC SET UP */
+/* ----------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    zoom:1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* BTN */
+.btn:link,
+.btn:visited,
+input[type=submit]{
+   display: inline-block;
+   padding: 10px 30px;
+   font-weight: 500;
+   text-decoration: none;
+   border-radius: 200px;
+   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+   transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+  background-color:     #0ec1ba;
+  border: 1px solid    #0ec1ba;
+  color: #fff;
+  margin-right: 15px;
+  -webkit-box-shadow: 2px 2px 8px  #0ec1ba;
+  box-shadow: 2px 2px 8px  #0ec1ba;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited,
+input[type=submit]{
+  background-color:     #f7b623;
+  border: 1px solid  #f7b623;
+  color: #fff;
+  margin-right: 15px;
+  -webkit-box-shadow: 2px 2px 8px rgba(230, 192, 34, 0.85);
+  box-shadow: 2px 2px 8px rgba(230, 192, 34, 0.85);
+}
+
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color:  #0b7470;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color:  #bc9c19;
+	border: 1px solid  #bc9c19;
+}
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]{
+  border: 1px solid #0b7470;
+}
+
+/* HEADINGS */
+h2{
+	font-size: 250%;
+	word-spacing: 3px;
+
+}
+
+/* PARAGRAPH */
+
+.long-copy{
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 60px;
+}
+/* ----------------------------------------- */
+/* REUSABLE ELEMENTS*/
+/* ----------------------------------------- */
+.row {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0;
+}
+
+
+/* ----------------------------------------- */
+/* HEADER */
+/* ----------------------------------------- */
+
+header {
+
+   background-image:   linear-gradient(rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(img/Trading-Bolsa-Ahorro-Economia_390973697_120468674_1706x960.jpg);
+    background-size: cover;
+    background-position: top ;
+
+    height: 130vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top:66%;
+    left:40%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+}
+
+
+.hero-text-box h1{
+    margin-bottom: 100px;
+	font-size: 300%;
+	font-weight:500;
+
+
+}
+.hero-text-box h1 span{
+     color: #0ec1ba;
+     border-bottom: 4px solid #0ec1ba;
+
+}
+
+
+
+/* Main-nav  */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left:40px;
+}
+
+.main-nav li a:link, .main-nav li a:visited {
+    text-decoration: none;
+
+    font-size: 100%;
+	font-weight: 500;
+    color:#fff;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+      border-bottom: 2px solid #0ec1ba;
+}
+
+.btn-nav{
+	margin-left: 100px;
+	font-size: 80%;
+	font-weight: 500;
+	 -webkit-box-shadow: 0 0 0 white;
+	 box-shadow: 0 0 0 white;
+
+}
+
+
+/* ----------------------------------------- */
+/* FOREX */
+/* ----------------------------------------- */
+.section-forex{
+	background-color: #040a22;
+	background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.section-forex div:first-child{
+	background-color:  #031538;
+    position: absolute;
+    top:-20%;
+	left: 5%;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 80px;
+
+}
+
+
+ .section-forex span{
+     color: #0ec1ba;
+     border-bottom: 5px solid rgba(230, 192, 34, 0.85);
+
+}
+
